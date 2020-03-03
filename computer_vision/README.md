@@ -1,1 +1,1 @@
-This is a MATLAB folder containing scripts and functions for computer vision algorithms.
+This is a folder containing MATLAB scripts and functions for computer vision algorithms.
