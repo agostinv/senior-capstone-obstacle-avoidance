@@ -130,6 +130,7 @@ int main(void)
 
    HAL_Delay(10);
 
+
    HAL_GPIO_WritePin(GPIOA, SH1_Pin, GPIO_PIN_SET);
    if (!sensor[0].begin(TOF_ADD1, false, &hi2c1))
  	  printf("Begin statement 1 failed.\n");
@@ -159,6 +160,7 @@ int main(void)
  	  printf("Begin statement 7 failed.\n");
 
 
+
    printf("Finished ToF initialization thus far.\n");
 
    // initialize camera before anything else with desired resolution, amount of compression (0x0 to 0xFF), and baudrate
@@ -183,7 +185,7 @@ int main(void)
    buffer_link* curr_link = buffer_list;
    buffer_link* transmit_link = NULL;
 
-   HAL_I2C_Slave_Receive_IT(&hi2c3, master_comm_buff, 1);
+  //HAL_I2C_Slave_Receive_IT(&hi2c3, master_comm_buff, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -345,7 +347,7 @@ int main(void)
 
 	  printf("Result: %d\n\n", result);
 	  result = HAL_ERROR;
-
+	  HAL_Delay(10);
 
 
 	  /*
@@ -355,15 +357,19 @@ int main(void)
 	   */
 
 
-
+	  master_comm_buff[0] = 20;
+	  master_comm_buff[1] = 30;
+	  master_comm_buff[2] = 40;
+	  master_comm_buff[3] = 50;
 	  // placeholder blocking i2c communication until interrupt driven interface is debugged
-	  HAL_I2C_Slave_Receive(&hi2c3, master_comm_buff, 9, 2000);
+	  result = HAL_I2C_Slave_Receive(&hi2c3, master_comm_buff, 9, 2000);
 
 	  if (master_comm_buff[0] == DATA_REQ) {
 		  package_data(object_list, object_num, i2c_buffer);
 		  for (int i = 0; i < object_num/2 + object_num%2; i++)
-			  HAL_I2C_Slave_Transmit(&hi2c3, i2c_buffer[i], 9, 2000);
+			  result = HAL_I2C_Slave_Transmit(&hi2c3, i2c_buffer[i], 9, 2000);
 	  }
+	  result = HAL_ERROR;
 
 	  //printf("End of while loop reached...");
 

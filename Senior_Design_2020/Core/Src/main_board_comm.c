@@ -9,7 +9,7 @@
 
 
 // note: currently assumes no limit to objects detected, however this could be simply implemented if necessary
-uint8_t package_data(struct object* obj_list, uint8_t obj_count, uint8_t** buffer) {
+uint8_t package_data(struct object* obj_list, uint8_t obj_count, uint8_t buffer[][9]) {
 
 	buffer[0][0] = DATA_REQ;
 	buffer[0][1] = obj_count;

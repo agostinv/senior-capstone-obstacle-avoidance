@@ -42,21 +42,21 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-System_Demo.elf \
+Senior_Design_2020.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-System_Demo.list \
+Senior_Design_2020.list \
 
 
 # All Target
-all: System_Demo.elf secondary-outputs
+all: Senior_Design_2020.elf secondary-outputs
 
 # Tool invocations
-System_Demo.elf: $(OBJS) $(USER_OBJS) C:\Users\victo\STM32CubeIDE\workspace_1.1.0\System_Demo\STM32H743VITX_FLASH.ld
-	arm-none-eabi-g++ -o "System_Demo.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\victo\STM32CubeIDE\workspace_1.1.0\System_Demo\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="System_Demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Senior_Design_2020.elf: $(OBJS) $(USER_OBJS) C:\Users\victo\STM32CubeIDE\workspace_1.1.0\Senior_Design_2020\STM32H743VITX_FLASH.ld
+	arm-none-eabi-g++ -o "Senior_Design_2020.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\victo\STM32CubeIDE\workspace_1.1.0\Senior_Design_2020\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Senior_Design_2020.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -65,8 +65,8 @@ default.size.stdout: $(EXECUTABLES)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-System_Demo.list: $(EXECUTABLES)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "System_Demo.list"
+Senior_Design_2020.list: $(EXECUTABLES)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Senior_Design_2020.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 

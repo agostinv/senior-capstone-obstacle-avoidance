@@ -10,9 +10,9 @@
 
 #include "main.h"
 
-#define DATA_REQ		0x01
+#define DATA_REQ		0x56
 
-uint8_t package_data(struct object*, uint8_t, uint8_t**);
+uint8_t package_data(struct object*, uint8_t, uint8_t[][9]);
 
 
 #endif /* INC_MAIN_BOARD_COMM_H_ */

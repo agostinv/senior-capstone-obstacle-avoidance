@@ -74,9 +74,9 @@ int _write(int, char*, int);
 void get_TOF_Data();
 
 // completely dummy functions, meant to be revised and filled as needed for image processing
-obj_t* process_IMG(image_t);
-void find_Obj(image_t*, obj_t*);
-void find_Headings(image_t*, obj_t*);
+obj_t* process_IMG();
+void find_Obj(obj_t*);
+void find_Headings(obj_t*);
 
 // attempts at rewriting HAL drivers to be a bit faster
 HAL_StatusTypeDef UART_Fast_Transmit(UART_HandleTypeDef*, uint8_t*, uint16_t, uint32_t);
