@@ -1,0 +1,99 @@
+vl53l0x_api.cpp:56:15:VL53L0X_Error VL53L0X_GetVersion(VL53L0X_Version_t*)	24	static
+vl53l0x_api.cpp:70:15:VL53L0X_Error VL53L0X_GetPalSpecVersion(VL53L0X_Version_t*)	24	static
+vl53l0x_api.cpp:85:15:VL53L0X_Error VL53L0X_GetProductRevision(VL53L0X_DEV, uint8_t*, uint8_t*)	32	static
+vl53l0x_api.cpp:102:15:VL53L0X_Error VL53L0X_GetDeviceInfo(VL53L0X_DEV, VL53L0X_DeviceInfo_t*)	24	static
+vl53l0x_api.cpp:114:1:VL53L0X_Error VL53L0X_GetDeviceErrorStatus(VL53L0X_DEV, VL53L0X_DeviceError*)	24	static
+vl53l0x_api.cpp:129:15:VL53L0X_Error VL53L0X_GetDeviceErrorString(VL53L0X_DeviceError, char*)	24	static
+vl53l0x_api.cpp:141:15:VL53L0X_Error VL53L0X_GetRangeStatusString(uint8_t, char*)	24	static
+vl53l0x_api.cpp:152:15:VL53L0X_Error VL53L0X_GetPalErrorString(VL53L0X_Error, char*)	24	static
+vl53l0x_api.cpp:163:15:VL53L0X_Error VL53L0X_GetPalStateString(VL53L0X_State, char*)	24	static
+vl53l0x_api.cpp:174:15:VL53L0X_Error VL53L0X_GetPalState(VL53L0X_DEV, VL53L0X_State*)	24	static
+vl53l0x_api.cpp:184:15:VL53L0X_Error VL53L0X_SetPowerMode(VL53L0X_DEV, VL53L0X_PowerModes)	24	static
+vl53l0x_api.cpp:216:15:VL53L0X_Error VL53L0X_GetPowerMode(VL53L0X_DEV, VL53L0X_PowerModes*)	24	static
+vl53l0x_api.cpp:237:15:VL53L0X_Error VL53L0X_SetOffsetCalibrationDataMicroMeter(VL53L0X_DEV, int32_t)	24	static
+vl53l0x_api.cpp:249:15:VL53L0X_Error VL53L0X_GetOffsetCalibrationDataMicroMeter(VL53L0X_DEV, int32_t*)	24	static
+vl53l0x_api.cpp:262:1:VL53L0X_Error VL53L0X_SetLinearityCorrectiveGain(VL53L0X_DEV, int16_t)	24	static
+vl53l0x_api.cpp:284:1:VL53L0X_Error VL53L0X_GetLinearityCorrectiveGain(VL53L0X_DEV, uint16_t*)	24	static
+vl53l0x_api.cpp:295:15:VL53L0X_Error VL53L0X_SetGroupParamHold(VL53L0X_DEV, uint8_t)	24	static
+vl53l0x_api.cpp:306:15:VL53L0X_Error VL53L0X_GetUpperLimitMilliMeter(VL53L0X_DEV, uint16_t*)	24	static
+vl53l0x_api.cpp:317:15:VL53L0X_Error VL53L0X_GetTotalSignalRate(VL53L0X_DEV, FixPoint1616_t*)	56	static
+vl53l0x_api.cpp:336:15:VL53L0X_Error VL53L0X_SetDeviceAddress(VL53L0X_DEV, uint8_t)	24	static
+vl53l0x_api.cpp:347:15:VL53L0X_Error VL53L0X_DataInit(VL53L0X_DEV)	104	static
+vl53l0x_api.cpp:490:1:VL53L0X_Error VL53L0X_SetTuningSettingBuffer(VL53L0X_DEV, uint8_t*, uint8_t)	32	static
+vl53l0x_api.cpp:516:1:VL53L0X_Error VL53L0X_GetTuningSettingBuffer(VL53L0X_DEV, uint8_t**, uint8_t*)	32	static
+vl53l0x_api.cpp:529:15:VL53L0X_Error VL53L0X_StaticInit(VL53L0X_DEV)	136	static
+vl53l0x_api.cpp:672:15:VL53L0X_Error VL53L0X_WaitDeviceBooted(VL53L0X_DEV)	24	static
+vl53l0x_api.cpp:682:15:VL53L0X_Error VL53L0X_ResetDevice(VL53L0X_DEV)	24	static
+vl53l0x_api.cpp:717:15:VL53L0X_Error VL53L0X_SetDeviceParameters(VL53L0X_DEV, const VL53L0X_DeviceParameters_t*)	24	static
+vl53l0x_api.cpp:763:1:VL53L0X_Error VL53L0X_GetDeviceParameters(VL53L0X_DEV, VL53L0X_DeviceParameters_t*)	24	static
+vl53l0x_api.cpp:823:15:VL53L0X_Error VL53L0X_SetDeviceMode(VL53L0X_DEV, VL53L0X_DeviceModes)	24	static
+vl53l0x_api.cpp:847:15:VL53L0X_Error VL53L0X_GetDeviceMode(VL53L0X_DEV, VL53L0X_DeviceModes*)	24	static
+vl53l0x_api.cpp:858:15:VL53L0X_Error VL53L0X_SetRangeFractionEnable(VL53L0X_DEV, uint8_t)	24	static
+vl53l0x_api.cpp:872:15:VL53L0X_Error VL53L0X_GetFractionEnable(VL53L0X_DEV, uint8_t*)	24	static
+vl53l0x_api.cpp:885:15:VL53L0X_Error VL53L0X_SetHistogramMode(VL53L0X_DEV, VL53L0X_HistogramModes)	24	static
+vl53l0x_api.cpp:896:15:VL53L0X_Error VL53L0X_GetHistogramMode(VL53L0X_DEV, VL53L0X_HistogramModes*)	24	static
+vl53l0x_api.cpp:907:15:VL53L0X_Error VL53L0X_SetMeasurementTimingBudgetMicroSeconds(VL53L0X_DEV, uint32_t)	24	static
+vl53l0x_api.cpp:920:15:VL53L0X_Error VL53L0X_GetMeasurementTimingBudgetMicroSeconds(VL53L0X_DEV, uint32_t*)	24	static
+vl53l0x_api.cpp:932:15:VL53L0X_Error VL53L0X_SetVcselPulsePeriod(VL53L0X_DEV, VL53L0X_VcselPeriod, uint8_t)	24	static
+vl53l0x_api.cpp:945:15:VL53L0X_Error VL53L0X_GetVcselPulsePeriod(VL53L0X_DEV, VL53L0X_VcselPeriod, uint8_t*)	32	static
+vl53l0x_api.cpp:959:1:VL53L0X_Error VL53L0X_SetSequenceStepEnable(VL53L0X_DEV, VL53L0X_SequenceStepId, uint8_t)	32	static
+vl53l0x_api.cpp:1046:15:VL53L0X_Error sequence_step_enabled(VL53L0X_DEV, VL53L0X_SequenceStepId, uint8_t, uint8_t*)	32	static
+vl53l0x_api.cpp:1079:1:VL53L0X_Error VL53L0X_GetSequenceStepEnable(VL53L0X_DEV, VL53L0X_SequenceStepId, uint8_t*)	32	static
+vl53l0x_api.cpp:1098:15:VL53L0X_Error VL53L0X_GetSequenceStepEnables(VL53L0X_DEV, VL53L0X_SchedulerSequenceSteps_t*)	24	static
+vl53l0x_api.cpp:1139:1:VL53L0X_Error VL53L0X_GetNumberOfSequenceSteps(VL53L0X_DEV, uint8_t*)	24	static
+vl53l0x_api.cpp:1151:1:VL53L0X_Error VL53L0X_GetSequenceStepsInfo(VL53L0X_SequenceStepId, char*)	24	static
+vl53l0x_api.cpp:1165:1:VL53L0X_Error VL53L0X_SetSequenceStepTimeout(VL53L0X_DEV, VL53L0X_SequenceStepId, FixPoint1616_t)	40	static
+vl53l0x_api.cpp:1216:1:VL53L0X_Error VL53L0X_GetSequenceStepTimeout(VL53L0X_DEV, VL53L0X_SequenceStepId, FixPoint1616_t*)	40	static
+vl53l0x_api.cpp:1237:15:VL53L0X_Error VL53L0X_SetInterMeasurementPeriodMilliSeconds(VL53L0X_DEV, uint32_t)	32	static
+vl53l0x_api.cpp:1268:15:VL53L0X_Error VL53L0X_GetInterMeasurementPeriodMilliSeconds(VL53L0X_DEV, uint32_t*)	24	static
+vl53l0x_api.cpp:1298:1:VL53L0X_Error VL53L0X_SetXTalkCompensationEnable(VL53L0X_DEV, uint8_t)	24	static
+vl53l0x_api.cpp:1332:1:VL53L0X_Error VL53L0X_GetXTalkCompensationEnable(VL53L0X_DEV, uint8_t*)	24	static
+vl53l0x_api.cpp:1345:15:VL53L0X_Error VL53L0X_SetXTalkCompensationRateMegaCps(VL53L0X_DEV, FixPoint1616_t)	24	static
+vl53l0x_api.cpp:1380:15:VL53L0X_Error VL53L0X_GetXTalkCompensationRateMegaCps(VL53L0X_DEV, FixPoint1616_t*)	24	static
+vl53l0x_api.cpp:1409:15:VL53L0X_Error VL53L0X_SetRefCalibration(VL53L0X_DEV, uint8_t, uint8_t)	24	static
+vl53l0x_api.cpp:1420:15:VL53L0X_Error VL53L0X_GetRefCalibration(VL53L0X_DEV, uint8_t*, uint8_t*)	32	static
+vl53l0x_api.cpp:1435:15:VL53L0X_Error VL53L0X_GetNumberOfLimitCheck(uint16_t*)	24	static
+vl53l0x_api.cpp:1445:15:VL53L0X_Error VL53L0X_GetLimitCheckInfo(VL53L0X_DEV, uint16_t, char*)	32	static
+vl53l0x_api.cpp:1457:15:VL53L0X_Error VL53L0X_GetLimitCheckStatus(VL53L0X_DEV, uint16_t, uint8_t*)	32	static
+vl53l0x_api.cpp:1478:15:VL53L0X_Error VL53L0X_SetLimitCheckEnable(VL53L0X_DEV, uint16_t, uint8_t)	32	static
+vl53l0x_api.cpp:1574:15:VL53L0X_Error VL53L0X_GetLimitCheckEnable(VL53L0X_DEV, uint16_t, uint8_t*)	32	static
+vl53l0x_api.cpp:1594:15:VL53L0X_Error VL53L0X_SetLimitCheckValue(VL53L0X_DEV, uint16_t, FixPoint1616_t)	32	static
+vl53l0x_api.cpp:1666:15:VL53L0X_Error VL53L0X_GetLimitCheckValue(VL53L0X_DEV, uint16_t, FixPoint1616_t*)	32	static
+vl53l0x_api.cpp:1749:15:VL53L0X_Error VL53L0X_GetLimitCheckCurrent(VL53L0X_DEV, uint16_t, FixPoint1616_t*)	64	static
+vl53l0x_api.cpp:1813:15:VL53L0X_Error VL53L0X_SetWrapAroundCheckEnable(VL53L0X_DEV, uint8_t)	24	static
+vl53l0x_api.cpp:1845:1:VL53L0X_Error VL53L0X_GetWrapAroundCheckEnable(VL53L0X_DEV, uint8_t*)	24	static
+vl53l0x_api.cpp:1870:1:VL53L0X_Error VL53L0X_SetDmaxCalParameters(VL53L0X_DEV, uint16_t, FixPoint1616_t)	32	static
+vl53l0x_api.cpp:1902:1:VL53L0X_Error VL53L0X_GetDmaxCalParameters(VL53L0X_DEV, uint16_t*, FixPoint1616_t*)	32	static
+vl53l0x_api.cpp:1918:15:VL53L0X_Error VL53L0X_PerformSingleMeasurement(VL53L0X_DEV)	24	static
+vl53l0x_api.cpp:1945:15:VL53L0X_Error VL53L0X_PerformSingleHistogramMeasurement(VL53L0X_DEV, VL53L0X_HistogramMeasurementData_t*)	24	static
+vl53l0x_api.cpp:1957:15:VL53L0X_Error VL53L0X_PerformRefCalibration(VL53L0X_DEV, uint8_t*, uint8_t*)	32	static
+vl53l0x_api.cpp:1969:15:VL53L0X_Error VL53L0X_PerformXTalkMeasurement(VL53L0X_DEV, uint32_t, FixPoint1616_t*, uint8_t*)	32	static
+vl53l0x_api.cpp:1983:1:VL53L0X_Error VL53L0X_PerformXTalkCalibration(VL53L0X_DEV, FixPoint1616_t, FixPoint1616_t*)	32	static
+vl53l0x_api.cpp:1997:1:VL53L0X_Error VL53L0X_PerformOffsetCalibration(VL53L0X_DEV, FixPoint1616_t, int32_t*)	32	static
+vl53l0x_api.cpp:2010:15:VL53L0X_Error VL53L0X_CheckAndLoadInterruptSettings(VL53L0X_DEV, uint8_t)	32	static
+vl53l0x_api.cpp:2045:15:VL53L0X_Error VL53L0X_StartMeasurement(VL53L0X_DEV)	32	static
+vl53l0x_api.cpp:2122:15:VL53L0X_Error VL53L0X_StopMeasurement(VL53L0X_DEV)	24	static
+vl53l0x_api.cpp:2148:15:VL53L0X_Error VL53L0X_GetMeasurementDataReady(VL53L0X_DEV, uint8_t*)	24	static
+vl53l0x_api.cpp:2180:15:VL53L0X_Error VL53L0X_WaitDeviceReadyForNewMeasurement(VL53L0X_DEV, uint32_t)	24	static
+vl53l0x_api.cpp:2191:15:VL53L0X_Error VL53L0X_GetRangingMeasurementData(VL53L0X_DEV, VL53L0X_RangingMeasurementData_t*)	96	static
+vl53l0x_api.cpp:2334:1:VL53L0X_Error VL53L0X_GetMeasurementRefSignal(VL53L0X_DEV, FixPoint1616_t*)	24	static
+vl53l0x_api.cpp:2345:15:VL53L0X_Error VL53L0X_GetHistogramMeasurementData(VL53L0X_DEV, VL53L0X_HistogramMeasurementData_t*)	24	static
+vl53l0x_api.cpp:2355:15:VL53L0X_Error VL53L0X_PerformSingleRangingMeasurement(VL53L0X_DEV, VL53L0X_RangingMeasurementData_t*)	24	static
+vl53l0x_api.cpp:2379:15:VL53L0X_Error VL53L0X_SetNumberOfROIZones(VL53L0X_DEV, uint8_t)	24	static
+vl53l0x_api.cpp:2392:15:VL53L0X_Error VL53L0X_GetNumberOfROIZones(VL53L0X_DEV, uint8_t*)	24	static
+vl53l0x_api.cpp:2404:15:VL53L0X_Error VL53L0X_GetMaxNumberOfROIZones(VL53L0X_DEV, uint8_t*)	24	static
+vl53l0x_api.cpp:2418:15:VL53L0X_Error VL53L0X_SetGpioConfig(VL53L0X_DEV, uint8_t, VL53L0X_DeviceModes, VL53L0X_GpioFunctionality, VL53L0X_InterruptPolarity)	24	static
+vl53l0x_api.cpp:2510:15:VL53L0X_Error VL53L0X_GetGpioConfig(VL53L0X_DEV, uint8_t, VL53L0X_DeviceModes*, VL53L0X_GpioFunctionality*, VL53L0X_InterruptPolarity*)	32	static
+vl53l0x_api.cpp:2575:15:VL53L0X_Error VL53L0X_SetInterruptThresholds(VL53L0X_DEV, VL53L0X_DeviceModes, FixPoint1616_t, FixPoint1616_t)	32	static
+vl53l0x_api.cpp:2598:15:VL53L0X_Error VL53L0X_GetInterruptThresholds(VL53L0X_DEV, VL53L0X_DeviceModes, FixPoint1616_t*, FixPoint1616_t*)	32	static
+vl53l0x_api.cpp:2622:15:VL53L0X_Error VL53L0X_GetStopCompletedStatus(VL53L0X_DEV, uint32_t*)	24	static
+vl53l0x_api.cpp:2653:15:VL53L0X_Error VL53L0X_ClearInterruptMask(VL53L0X_DEV, uint32_t)	24	static
+vl53l0x_api.cpp:2677:15:VL53L0X_Error VL53L0X_GetInterruptMaskStatus(VL53L0X_DEV, uint32_t*)	24	static
+vl53l0x_api.cpp:2693:15:VL53L0X_Error VL53L0X_EnableInterruptMask(VL53L0X_DEV, uint32_t)	24	static
+vl53l0x_api.cpp:2709:1:VL53L0X_Error VL53L0X_SetSpadAmbientDamperThreshold(VL53L0X_DEV, uint16_t)	24	static
+vl53l0x_api.cpp:2723:1:VL53L0X_Error VL53L0X_GetSpadAmbientDamperThreshold(VL53L0X_DEV, uint16_t*)	24	static
+vl53l0x_api.cpp:2737:1:VL53L0X_Error VL53L0X_SetSpadAmbientDamperFactor(VL53L0X_DEV, uint16_t)	24	static
+vl53l0x_api.cpp:2754:1:VL53L0X_Error VL53L0X_GetSpadAmbientDamperFactor(VL53L0X_DEV, uint16_t*)	24	static
+vl53l0x_api.cpp:2775:15:VL53L0X_Error VL53L0X_SetReferenceSpads(VL53L0X_DEV, uint32_t, uint8_t)	32	static
+vl53l0x_api.cpp:2787:15:VL53L0X_Error VL53L0X_GetReferenceSpads(VL53L0X_DEV, uint32_t*, uint8_t*)	32	static
+vl53l0x_api.cpp:2799:15:VL53L0X_Error VL53L0X_PerformRefSpadManagement(VL53L0X_DEV, uint32_t*, uint8_t*)	32	static

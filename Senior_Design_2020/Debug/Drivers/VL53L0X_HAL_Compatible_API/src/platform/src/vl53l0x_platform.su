@@ -1,0 +1,12 @@
+vl53l0x_platform.cpp:100:15:VL53L0X_Error VL53L0X_LockSequenceAccess(VL53L0X_DEV)	24	static
+vl53l0x_platform.cpp:106:15:VL53L0X_Error VL53L0X_UnlockSequenceAccess(VL53L0X_DEV)	24	static
+vl53l0x_platform.cpp:113:15:VL53L0X_Error VL53L0X_WriteMulti(VL53L0X_DEV, uint8_t, uint8_t*, uint32_t)	48	static
+vl53l0x_platform.cpp:136:15:VL53L0X_Error VL53L0X_ReadMulti(VL53L0X_DEV, uint8_t, uint8_t*, uint32_t)	40	static
+vl53l0x_platform.cpp:157:15:VL53L0X_Error VL53L0X_WrByte(VL53L0X_DEV, uint8_t, uint8_t)	24	static
+vl53l0x_platform.cpp:172:15:VL53L0X_Error VL53L0X_WrWord(VL53L0X_DEV, uint8_t, uint16_t)	24	static
+vl53l0x_platform.cpp:187:15:VL53L0X_Error VL53L0X_WrDWord(VL53L0X_DEV, uint8_t, uint32_t)	32	static
+vl53l0x_platform.cpp:202:15:VL53L0X_Error VL53L0X_UpdateByte(VL53L0X_DEV, uint8_t, uint8_t, uint8_t)	32	static
+vl53l0x_platform.cpp:227:15:VL53L0X_Error VL53L0X_RdByte(VL53L0X_DEV, uint8_t, uint8_t*)	32	static
+vl53l0x_platform.cpp:242:15:VL53L0X_Error VL53L0X_RdWord(VL53L0X_DEV, uint8_t, uint16_t*)	32	static
+vl53l0x_platform.cpp:257:15:VL53L0X_Error VL53L0X_RdDWord(VL53L0X_DEV, uint8_t, uint32_t*)	32	static
+vl53l0x_platform.cpp:273:15:VL53L0X_Error VL53L0X_PollingDelay(VL53L0X_DEV)	24	static,ignoring_inline_asm

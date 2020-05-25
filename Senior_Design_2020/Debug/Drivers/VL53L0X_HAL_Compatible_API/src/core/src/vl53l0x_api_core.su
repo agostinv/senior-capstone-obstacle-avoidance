@@ -1,0 +1,26 @@
+std_abs.h:70:3:constexpr double std::abs(double)	16	static
+vl53l0x_api_core.cpp:44:15:VL53L0X_Error VL53L0X_reverse_bytes(uint8_t*, uint32_t)	40	static
+vl53l0x_api_core.cpp:60:15:VL53L0X_Error VL53L0X_measurement_poll_for_completion(VL53L0X_DEV)	32	static
+vl53l0x_api_core.cpp:91:9:uint8_t VL53L0X_decode_vcsel_period(uint8_t)	24	static
+vl53l0x_api_core.cpp:104:9:uint8_t VL53L0X_encode_vcsel_period(uint8_t)	24	static
+vl53l0x_api_core.cpp:117:10:uint32_t VL53L0X_isqrt(uint32_t)	24	static
+vl53l0x_api_core.cpp:146:10:uint32_t VL53L0X_quadrature_sum(uint32_t, uint32_t)	24	static
+vl53l0x_api_core.cpp:167:15:VL53L0X_Error VL53L0X_device_read_strobe(VL53L0X_DEV)	32	static
+vl53l0x_api_core.cpp:197:15:VL53L0X_Error VL53L0X_get_info_from_device(VL53L0X_DEV, uint8_t)	104	static
+vl53l0x_api_core.cpp:426:10:uint32_t VL53L0X_calc_macro_period_ps(VL53L0X_DEV, uint8_t)	32	static
+vl53l0x_api_core.cpp:447:10:uint16_t VL53L0X_encode_timeout(uint32_t)	32	static
+vl53l0x_api_core.cpp:470:10:uint32_t VL53L0X_decode_timeout(uint16_t)	24	static
+vl53l0x_api_core.cpp:485:10:uint32_t VL53L0X_calc_timeout_mclks(VL53L0X_DEV, uint32_t, uint8_t)	40	static
+vl53l0x_api_core.cpp:501:10:uint32_t VL53L0X_calc_timeout_us(VL53L0X_DEV, uint16_t, uint8_t)	32	static
+vl53l0x_api_core.cpp:516:15:VL53L0X_Error get_sequence_step_timeout(VL53L0X_DEV, VL53L0X_SequenceStepId, uint32_t*)	56	static
+vl53l0x_api_core.cpp:611:15:VL53L0X_Error set_sequence_step_timeout(VL53L0X_DEV, VL53L0X_SequenceStepId, uint32_t)	48	static
+vl53l0x_api_core.cpp:732:1:VL53L0X_Error VL53L0X_set_vcsel_pulse_period(VL53L0X_DEV, VL53L0X_VcselPeriod, uint8_t)	48	static
+vl53l0x_api_core.cpp:940:1:VL53L0X_Error VL53L0X_get_vcsel_pulse_period(VL53L0X_DEV, VL53L0X_VcselPeriod, uint8_t*)	32	static
+vl53l0x_api_core.cpp:965:15:VL53L0X_Error VL53L0X_set_measurement_timing_budget_micro_seconds(VL53L0X_DEV, uint32_t)	80	static
+vl53l0x_api_core.cpp:1097:15:VL53L0X_Error VL53L0X_get_measurement_timing_budget_micro_seconds(VL53L0X_DEV, uint32_t*)	72	static
+vl53l0x_api_core.cpp:1174:15:VL53L0X_Error VL53L0X_load_tuning_settings(VL53L0X_DEV, uint8_t*)	48	static
+vl53l0x_api_core.cpp:1256:15:VL53L0X_Error VL53L0X_get_total_xtalk_rate(VL53L0X_DEV, VL53L0X_RangingMeasurementData_t*, FixPoint1616_t*)	40	static
+vl53l0x_api_core.cpp:1287:15:VL53L0X_Error VL53L0X_get_total_signal_rate(VL53L0X_DEV, VL53L0X_RangingMeasurementData_t*, FixPoint1616_t*)	32	static
+vl53l0x_api_core.cpp:1306:15:VL53L0X_Error VL53L0X_calc_dmax(VL53L0X_DEV, FixPoint1616_t, FixPoint1616_t, FixPoint1616_t, uint32_t, FixPoint1616_t, uint32_t, uint32_t*)	112	static
+vl53l0x_api_core.cpp:1488:15:VL53L0X_Error VL53L0X_calc_sigma_estimate(VL53L0X_DEV, VL53L0X_RangingMeasurementData_t*, FixPoint1616_t*, uint32_t*)	208	static
+vl53l0x_api_core.cpp:1811:15:VL53L0X_Error VL53L0X_get_pal_range_status(VL53L0X_DEV, uint8_t, FixPoint1616_t, uint16_t, VL53L0X_RangingMeasurementData_t*, uint8_t*)	72	static

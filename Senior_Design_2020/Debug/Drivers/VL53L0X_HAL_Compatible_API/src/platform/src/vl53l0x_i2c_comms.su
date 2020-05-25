@@ -1,0 +1,9 @@
+vl53l0x_i2c_comms.cpp:6:5:int VL53L0X_i2c_init(I2C_HandleTypeDef*)	16	static
+vl53l0x_i2c_comms.cpp:11:5:int VL53L0X_write_multi(uint8_t, uint8_t, uint8_t*, uint32_t, I2C_HandleTypeDef*)	40	static
+vl53l0x_i2c_comms.cpp:26:5:int VL53L0X_read_multi(uint8_t, uint8_t, uint8_t*, uint32_t, I2C_HandleTypeDef*)	40	static
+vl53l0x_i2c_comms.cpp:43:5:int VL53L0X_write_byte(uint8_t, uint8_t, uint8_t, I2C_HandleTypeDef*)	24	static
+vl53l0x_i2c_comms.cpp:48:5:int VL53L0X_write_word(uint8_t, uint8_t, uint16_t, I2C_HandleTypeDef*)	32	static
+vl53l0x_i2c_comms.cpp:56:5:int VL53L0X_write_dword(uint8_t, uint8_t, uint32_t, I2C_HandleTypeDef*)	40	static
+vl53l0x_i2c_comms.cpp:68:5:int VL53L0X_read_byte(uint8_t, uint8_t, uint8_t*, I2C_HandleTypeDef*)	32	static
+vl53l0x_i2c_comms.cpp:73:5:int VL53L0X_read_word(uint8_t, uint8_t, uint16_t*, I2C_HandleTypeDef*)	40	static
+vl53l0x_i2c_comms.cpp:87:5:int VL53L0X_read_dword(uint8_t, uint8_t, uint32_t*, I2C_HandleTypeDef*)	48	static

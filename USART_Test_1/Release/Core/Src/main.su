@@ -1,6 +1,0 @@
-main.c:138:6:SystemClock_Config	320	static
-main.c:86:5:main	64	static
-main.c:359:6:Camera_Setup	24	static
-main.c:369:6:send_USART	24	static
-main.c:402:5:_write	8	static,ignoring_inline_asm
-main.c:414:6:Error_Handler	0	static

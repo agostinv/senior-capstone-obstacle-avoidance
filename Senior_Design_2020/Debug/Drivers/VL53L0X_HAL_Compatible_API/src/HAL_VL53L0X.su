@@ -1,0 +1,4 @@
+HAL_VL53L0X.cpp:21:6:bool HAL_VL53L0X::begin(uint8_t, bool, I2C_HandleTypeDef*)	40	static
+HAL_VL53L0X.cpp:118:6:bool HAL_VL53L0X::setAddress(uint8_t)	16	static
+HAL_VL53L0X.cpp:142:15:VL53L0X_Error HAL_VL53L0X::getSingleRangingMeasurement(VL53L0X_RangingMeasurementData_t*, bool)	32	static
+HAL_VL53L0X.cpp:177:6:void HAL_VL53L0X::printRangeStatus(VL53L0X_RangingMeasurementData_t*)	56	static

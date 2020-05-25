@@ -1,0 +1,8 @@
+vl53l0x_api_strings.cpp:45:1:VL53L0X_Error VL53L0X_check_part_used(VL53L0X_DEV, uint8_t*, VL53L0X_DeviceInfo_t*)	32	static
+vl53l0x_api_strings.cpp:73:1:VL53L0X_Error VL53L0X_get_device_info(VL53L0X_DEV, VL53L0X_DeviceInfo_t*)	32	static
+vl53l0x_api_strings.cpp:113:15:VL53L0X_Error VL53L0X_get_device_error_string(VL53L0X_DeviceError, char*)	32	static
+vl53l0x_api_strings.cpp:185:15:VL53L0X_Error VL53L0X_get_range_status_string(uint8_t, char*)	24	static
+vl53l0x_api_strings.cpp:220:15:VL53L0X_Error VL53L0X_get_pal_error_string(VL53L0X_Error, char*)	32	static
+vl53l0x_api_strings.cpp:294:15:VL53L0X_Error VL53L0X_get_pal_state_string(VL53L0X_State, char*)	32	static
+vl53l0x_api_strings.cpp:332:1:VL53L0X_Error VL53L0X_get_sequence_steps_info(VL53L0X_SequenceStepId, char*)	24	static
+vl53l0x_api_strings.cpp:365:15:VL53L0X_Error VL53L0X_get_limit_check_info(VL53L0X_DEV, uint16_t, char*)	40	static
