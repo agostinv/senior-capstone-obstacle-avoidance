@@ -28,3 +28,31 @@ All other settings should be default enabled as necessary. Some of the above are
 
 As of now, you will likely have to connect the programming port on our board to the JTAG/SWD 20 pin header on your ST-Link/V2 using free wires, so this section will go over how to connect the two in some detail. Observe the below pictures as you are making connections:
 
+![JTAG/SWD 20 Pin Header](imgs/JTAG_SCR.JPG "JTAG/SWD 20 Pin Header")
+
+![Table of Pins](imgs/JTAG_TABLE.JPG "Table of Pins and Uses for JTAG/SWD 20 Pin Header")
+
+The pins of interest to us are any of the VDD pins, any of the GND pins, pin 7 which functions as our SWDIO, pin 9 which functions as our SWCLK, pin 13 which functions as our TRACESWO, and pin 15 which functions as our NRST. All other pins can remain disconnected, although in the future it is worth keeping in mind that better ground contact will result in more reliable programming and debugging. 
+
+Now observe the below image of our board's layout and find the programming port:
+
+![Main Board Layout](imgs/MAIN_BOARD.JPG "Main Board Layout")
+
+The pins are laid out as such from top to bottom:
+
+- SWCLK
+- SWDIO
+- TRACESWO
+- NRST
+- VDD
+- GND
+
+Appropriately connect the pins according to the above artifacts and information. Connect directly to the board of the ST-Link/V2 for the best programming and debugging consistency. If you are able to program or if the error message from the ST-Link/V2 does not say that it cannot find a target device, you are most likely correctly connected. 
+
+##### Programming and Debugging through Serial Wire Viewer
+
+At this point, you should be ready to program the board. Compile and run the program through Run->Debug, assuming your configurations are correct. It should properly connect and list some statistics concerning the connection and the size of the binary being uploaded to the main board. After this is finished, you should appear paused at a breakpoint and your screen should look a lot like this:
+
+![Sample Debug](imgs/SAMPLE_DEBUG.JPG "Sample Debug")
+
+You can open the SWV ITM data console on the sidebar to the right if it is not enabled by default. From there, click on the Configure Trace button represented by a wrench and screw in the SWV ITM data console. The only absolutely necessary step here is to enable 0, but you may also want to enable a comparator for future analysis. Upon finishing, exit the settings and click on the red button adjacent to the settings button to begin collecting data. Your program should run from here correctly. 
